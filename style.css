@@ -226,14 +226,17 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #ffffff;
+  height: 50px;
 }
 #footer-name {
   font-size: 16px;
   color: #a8a8a8;
   padding-left: 36px;
+  padding-top:12px ;
 }
 #footer-logo {
   display: flex;
   gap: 32px;
   padding-right: 36px;
+  padding-top: 12px;
 }

@@ -1,0 +1,44 @@
+/* For tablet device */
+@media screen and (max-width:1024px) {
+    #heading-content h1 {
+    font-size: 50px;
+    
+}
+#cards {
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    max-width: 100%;
+}
+    
+}
+
+
+/* For Mobile device */
+@media screen and (max-width:624px){
+    #banner-item{
+        flex-direction: column-reverse;
+     }
+     #heading-content{
+        width: 100%;
+     }
+     .image{
+        width: 100%;
+     }
+     #heading-content h1{
+        font-size: 35px;
+     }
+     #service-heading h2{
+        font-size: 30px;
+     }
+     #spot{
+        flex-direction: column;
+     }
+     .spot-description {
+    width: 100%;
+}
+#spot-img {
+    width: 100%;
+}
+}
